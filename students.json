@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name": "Hadi",
+        "marks": {
+            "Math": 90,
+            "Science": 85,
+            "English":88
+        }
+    },
+    {
+        "id":2,
+        "name": "Uwais",
+        "marks":{
+            "Math": 90,
+            "Science":95,
+            "English":98
+        }
+    },
+    {
+        "id":3,
+        "name":"Rasha",
+        "marks":{
+            "Math":94,
+            "Science":96,
+            "English":90
+        }
+    }
+]

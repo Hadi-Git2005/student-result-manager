@@ -1,11 +1,11 @@
-from student import Student
 from analytics import *
-s1 = Student(1,"Hadi",{"Math":90,"Science":85,"English":88})
-s2 = Student(2,"Uwais",{"Math":90,"Science":95,"English":98})
-s3 = Student(3,"Ali",{"Math":70,"Science":75,"English":78})
-s4 = Student(4,"Ayaan",{"Math":95,"Science":95,"English":99})
+from storage import load_students
 
-students = [s1,s2,s3,s4]
+students = load_students()
+
+print("Student lenght :",len(students))
+for s in students:
+    print(s.name)
 
 subject = "Math"
 
@@ -28,6 +28,6 @@ print("Topper in",subject,":",topper.name,topper.marks[subject])
 
 print()
 
-weak = weak_subjects(s3)
-name,subjects = weak
-print(name,"is weak in",*subjects)
+for student in students:
+    weak = weak_subjects(student)
+    print("Weak Subjects for:",weak[0],":",*weak[1])
