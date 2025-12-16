@@ -1,29 +1,38 @@
 [
     {
-        "id":1,
+        "id": 1,
         "name": "Hadi",
         "marks": {
             "Math": 90,
             "Science": 85,
-            "English":88
+            "English": 88
         }
     },
     {
-        "id":2,
+        "id": 2,
         "name": "Uwais",
-        "marks":{
+        "marks": {
             "Math": 90,
-            "Science":95,
-            "English":98
+            "Science": 95,
+            "English": 98
         }
     },
     {
-        "id":3,
-        "name":"Rasha",
-        "marks":{
-            "Math":94,
-            "Science":96,
-            "English":90
+        "id": 3,
+        "name": "Rasha",
+        "marks": {
+            "Math": 94,
+            "Science": 96,
+            "English": 90
+        }
+    },
+    {
+        "id": 4,
+        "name": "Hadu",
+        "marks": {
+            "Math": 99,
+            "Science": 98,
+            "English": 97
         }
     }
 ]

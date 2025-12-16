@@ -1,6 +1,6 @@
 class Student:
-    def __init__(self,roll_no,name,marks):
-        self.roll_no = roll_no
+    def __init__(self,id,name,marks):
+        self.id = id
         self.name = name
         self.marks = marks
     def total_marks(self):

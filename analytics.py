@@ -8,12 +8,12 @@ def rank_students(students):
 def rank_by_subject(students,subject):
     return sorted(
         students,
-        key = lambda s : s.marks.get(subject,0),
+        key = lambda s : s.marks.get(subject[0],0),
         reverse=True
         )
 
 def topper_in_subject(students,subject):
-    return max(students,key = lambda s:s.marks[subject])
+    return max(students,key = lambda s:s.marks.get(subject,0))
 
 def weak_subjects(student):
     threshold = 80
