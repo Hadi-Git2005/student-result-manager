@@ -15,6 +15,6 @@ def rank_by_subject(students,subject):
 def topper_in_subject(students,subject):
     return max(students,key = lambda s:s.marks.get(subject,0))
 
-def weak_subjects(student):
-    threshold = 80
+def weak_subjects(student,id):
+    threshold = 60
     return (student.name,[i for i,m in student.marks.items() if m < threshold])
